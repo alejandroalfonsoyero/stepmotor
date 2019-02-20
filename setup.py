@@ -11,7 +11,7 @@ setuptools.setup(
     description="A package for controll step motors with parallel port",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/alejandroalfonsoyero/stepmotor",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
