@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="stepmotor",
-    version="0.0.1",
+    version="0.1.0",
     author="Alejandro Alfonso Yero",
     author_email="alejandroalfonso1994@gmail.com",
     description="A package for controll step motors with parallel port",
