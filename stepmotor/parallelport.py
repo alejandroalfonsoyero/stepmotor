@@ -76,6 +76,21 @@ class ParallelPortController:
 	def getData7(self):
 		return self.port.getData() & 0x01 != 0x00
 
+	def getInPin10(self):
+		return self.port.getInAcknowledge()
+
+	def getInPin11(self):
+		return self.port.getInBusy()
+
+	def getInPin12(self):
+		return self.port.getInPaperOut()
+
+	def getInPin13(self):
+		return self.port.getInSelected()
+
+	def getInPin15(self):
+		return self.port.getInError()
+
 	def setDataPin(self, dataPin, value):
 		if value is True:
 			if dataPin == 0:
